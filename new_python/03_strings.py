@@ -25,7 +25,31 @@ print("Mi nombre es %s %s y mi edad es %d" %(name, surname, age)) # Se recomiend
 print(f"Mi nombre es {name} {surname} y mi edad es {age}")
 
 # Desempaquetado de caracteres
-language = "Python"
+language = "python"
 a, b, c, d, e, f = language
 print(a)
 print(f)
+
+# División
+
+language_slice = language [1:]
+print(language_slice)
+
+language_slice = language [:4]
+print(language_slice)
+
+# Reverse
+
+reverse_lenguage = language[::-1]
+print(reverse_lenguage)
+
+# Funciones
+
+print(language.capitalize())
+print(language.upper())
+print(language.count("t"))
+print(language.isnumeric())
+print("1".isnumeric())
+print(language.lower())
+print(language.upper().isupper())
+print(language.startswith("py"))
